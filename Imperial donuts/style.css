@@ -1,0 +1,257 @@
+  
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;  
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Vesper Libre', serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 90%;
+    margin: 3px auto;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    text-decoration: none;  
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 7px 10px;
+    letter-spacing: 1px;    
+        
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.strapline-container {
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    border: 2px solid rgb(207, 19, 107);
+    background-image: url('./images/donuts.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #FFFFDD;
+}
+
+.main-strapline {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 120px;
+    margin: 50px 0px;
+}
+
+.second-strapline {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207, 19, 107);
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;
+}
+
+.about-section {
+    width: 100vw;
+    height: 90vh;
+    color: rgb(207, 19, 107);
+}
+
+.about-container {    
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    min-height: 70vh;
+
+}
+
+.left-box {    
+    width: 45%;       
+    line-height: 220%;
+    text-align: justify;
+    letter-spacing: 0.8px;
+    font-weight: bold;    
+}
+
+.right-box {    
+    width: 40%; 
+    margin-left: 6%;
+}
+
+.top-row, .bottom-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-image-one {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/Toronto.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-two {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/coffee.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-three {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/singlecoffee.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-four {
+    width: 50%;
+    height: 240px;
+    background-image: url(./images/fourdonuts.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.donuts-section {
+    width: 100vw; 
+    
+}
+
+.image-container {
+    width: 100%; 
+}
+
+.row-one, .row-two, .row-three {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.grid-item {
+    height: 310px;
+    width: 30%;
+    margin: 15px;    
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.grid-item:hover {
+    opacity: 0.8;
+}
+
+#donut-one {
+    background-image: url(./images/donuts1.jpg); 
+}
+
+#donut-two {
+    background-image: url(./images/donuts2.jpeg);
+}
+
+#donut-three {
+    background-image: url(./images/donuts3.jpg);
+}
+
+#donut-four {
+    background-image: url(./images/donuts4.jpg);
+}
+
+#donut-five {
+    background-image: url(./images/donuts5.jpeg);
+}
+
+#donut-six {
+    background-image: url(./images/donuts6.jpg);
+}
+
+#donut-seven {
+    background-image: url(./images/donuts7.jpeg);
+}
+
+#donut-eight {
+    background-image: url(./images/donuts8.jpeg);
+}
+
+#donut-nine {
+    background-image: url(./images/donuts9.jpg);
+}
+
+.stores-section {
+    width: 100vw; 
+}
+
+.stores-container {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.store-div {
+    width: 30%;
+    height: 240px;
+    margin: 20px;    
+    text-align: center;
+    color: rgb(207, 19, 107);
+}
+
+.contact-section {
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(207, 19, 107);
+    text-align: center;
+    color: white;
+}
+
+.contact-title {
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 240%;
+    margin-bottom: 25px;    
+}
+
+.email {
+    font-size: 20px;
+}
+
+.social-media-div {    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 15px auto;
+}
+
+.social-media-icon {
+    margin: 0 7.5px;
+}
